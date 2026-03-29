@@ -50,7 +50,32 @@ We use a **HashSet** to track elements:
 - Time: O(n)
 - Space: O(n)
 ----------------
-## ▶️ How to Run
-```bash
-javac ContainsDuplicate.java  
-java ContainsDuplicate
+
+
+Progress Day 4
+>># 🔹 Majority Element (Java)
+
+## 📌 Problem
+Given an integer array `nums`, return the element that appears more than ⌊n/2⌋ times.  
+If no such element exists, return `-1`.
+--------------
+## Possible Approches
+- Brute Force
+- HashMap
+- Sorting
+- Boyer-Moore
+--------------
+## 💡 Approach
+- Use **Boyer-Moore Voting Algorithm**
+- Find a candidate using voting method
+- Verify if it appears more than n/2 times
+- If yes → return it, else return -1
+--------------
+## 🧠 Complexity
+- Time: O(n)
+- Space: O(1)
+--------------
+
+
+
+
