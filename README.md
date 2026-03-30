@@ -76,6 +76,49 @@ If no such element exists, return `-1`.
 - Space: O(1)
 --------------
 
+Progress Day 5
+>> # 🔹 Find Pivot Index (Java)
+
+## 📌 Problem
+Given an array `nums`, return the pivot index where the sum of elements on the left is equal to the sum on the right.
+
+---
+
+## 💡 Approach
+- Calculate total sum (rightSum)
+- Traverse array and keep track of leftSum
+- At each index:
+  - Subtract current element from rightSum
+  - If leftSum == rightSum → return index
+- If no pivot found → return -1
+
+---
+
+## 🧠 Complexity
+- Time: O(n)
+- Space: O(1)
+
+--------------
+
+Progress Day 5
+
+>> # 🔹 Find Pivot Index (Java)
+
+## 📌 Problem
+Given an array `nums`, return the pivot index where the sum of elements on the left is equal to the sum on the right.
+---
+## 💡 Approach
+- Calculate total sum (rightSum)
+- Traverse array and keep track of leftSum
+- At each index:
+  - Subtract current element from rightSum
+  - If leftSum == rightSum → return index
+- If no pivot found → return -1
+---
+## 🧠 Complexity
+- Time: O(n)
+- Space: O(1)
+---
 
 
 
